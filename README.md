@@ -1,1 +1,1 @@
-# cypressAutomation
+# Cypress Automation Project
