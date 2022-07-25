@@ -55,4 +55,4 @@ This project is licensed under the [NAME HERE] License - see the LICENSE.md file
 
 ## Acknowledgments
 
-* [cypress guides]([https://github.com/matiassingers/awesome-readme](https://docs.cypress.io/guides/overview/why-cypress))
+* [cypress guides](https://github.com/matiassingers/awesome-readme](https://docs.cypress.io/guides/overview/why-cypress)
