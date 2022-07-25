@@ -30,12 +30,7 @@ npx cypress run
 
 ## Help
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
-
-## configuration of the folder where the specs are located
+### configuration of the folder where the specs are located
 
 In the cypress.config.js file add the following configuration
 
@@ -47,13 +42,6 @@ specPattern: 'cypress/integration/examples/*.js'
 
 [jhonnyLeandro](https://github.com/jhonnyLeandro)
 
-
-## Version History
-
-
-## License
-
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
 
 ## Acknowledgments
 
