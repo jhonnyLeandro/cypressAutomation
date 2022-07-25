@@ -15,8 +15,12 @@ This project is a personal training project in cypress
 
 ### Installing
 
-* npm i
-* npx cypress open
+```
+npm i
+```
+```
+npx cypress open
+```
 
 ### Executing program
 
@@ -41,10 +45,8 @@ specPattern: 'cypress/integration/examples/*.js'
 
 ## Authors
 
-Contributors names and contact info
+[jhonnyLeandro](https://github.com/jhonnyLeandro)
 
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
 
 ## Version History
 
