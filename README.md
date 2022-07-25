@@ -10,20 +10,18 @@ This project is a personal training project in cypress
 
 ### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+* node.js v16.16.0 installed
+
 
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+* npm i
+* npx cypress open
 
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
 ```
-code blocks for commands
+npx cypress run
 ```
 
 ## Help
@@ -50,11 +48,6 @@ ex. [@DomPizzie](https://twitter.com/dompizzie)
 
 ## Version History
 
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
-    * Initial Release
 
 ## License
 
