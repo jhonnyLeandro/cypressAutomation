@@ -21,9 +21,33 @@ describe('Testing web controls', function() {
           .check(['option2', 'option3'])
     })
 
-    
-    it('testing selects', function() {
+    it('testing static dropdowns', function() {
+      cy.get('select')
+        .select('Option2')
+        .should('have.value', 'option2')
+    })
 
+    it('testing dynamic dropdowns', function() {
+      cy.get('#autocomplete')
+        .type('co')
+      cy.get('li>div')
+        .contains('Colombia')
+        .click()
+      cy.get('#autocomplete').should('have.value', 'Colombia')
+    })
+
+    it('handling visible and invisible elements', function(){
+      cy.get('#displayed-text').should('be.visible')
+      cy.get('#hide-textbox').click()
+      cy.get('#displayed-text').should('not.be.visible')
+      cy.get('#show-textbox').click()
+      cy.get('#displayed-text').should('be.visible')
+    })
+
+    it('testing radio buttons', function(){
+      cy.get('input[value="radio2"]')
+        .check()
+        .should('be.checked')
     })
 
 })
