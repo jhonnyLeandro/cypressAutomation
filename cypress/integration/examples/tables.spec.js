@@ -15,5 +15,4 @@ describe('Testing Tables', function() {
             }
         })
     })
-
 })
